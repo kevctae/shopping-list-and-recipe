@@ -8,8 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   currentPage = 'Recipes';
   title = 'shopping-list-and-recipe';
-  
-  onPageChanged(page: string) {
-    this.currentPage = page;
-  }
 }
